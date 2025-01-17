@@ -1,0 +1,153 @@
+/* styles.css */
+
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Light background */
+}
+
+.App {
+  text-align: center;
+}
+
+/* Header Styles */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #343a40; /* Dark background */
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-button {
+  margin: 0 10px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #007bff; /* Bootstrap primary button color */
+  color: white;
+  text-decoration: none; /* Remove underline */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.nav-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  transform: translateY(-3px); /* Move button up */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for 3D effect */
+}
+
+/* Section Styles */
+section {
+  padding: 60px 0; /* Standard padding for sections */
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+/* About Section */
+#about {
+  background-color: #ffffff; /* White background for contrast */
+  padding: 50px 0; /* Additional padding for the About section */
+}
+
+.profile-photo {
+  width: 150px; /* Set width */
+  height: 150px; /* Set height */
+  border-radius: 50%; /* Circular profile photo */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Initial shadow for depth */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions for hover effects */
+}
+
+.profile-photo:hover {
+  transform: translateY(-5px) scale(1.1); /* Move up and scale on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); /* Increased shadow on hover */
+}
+
+/* Projects Section */
+#projects {
+  background-color: #e9ecef; /* Light grey background */
+}
+
+.card {
+  transition: transform 0.2s; /* Smooth scaling transition */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+/* Contact Section */
+#contact {
+  background-color: #ffffff; /* White background */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Space between form elements */
+}
+
+input, textarea {
+  width: 100%; /* Full width for inputs */
+  padding: 10px; /* Padding inside inputs */
+  border: 1px solid #ced4da; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+input:focus, textarea:focus {
+  border-color: #007bff; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+button {
+  background-color: #007bff; /* Bootstrap primary button color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #343a40; /* Dark background */
+  color: white;
+  padding: 20px 0; /* Padding for the footer */
+}
+
+/* Add to your CSS file */
+/* Skills Section */
+.skills-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 150px; /* Adjust height as needed */
+}
+
+.skills-marquee {
+  display: flex;
+  gap: 20px;
+}
+
+.skill-item {
+  text-align: center;
+  flex-shrink: 0; /* Prevent shrinking */
+  width: 100px; /* Ensure consistent item width */
+}
+
+/* Active link styles */
+.navbar-nav .active {
+  border-bottom: 2px solid #fff;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.nav-button:hover {
+  color: #f0f0f0 !important;
+}
