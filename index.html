@@ -11,6 +11,10 @@
   <body>
     <div id="root"></div>
     <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
-
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./src/js_components/secHead.js');
+      }
+    </script>    
   </body>
 </html>
