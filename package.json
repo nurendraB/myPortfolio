@@ -1,21 +1,22 @@
 {
   "homepage": "https://nurendrab.github.io/myPortfolio/",
-
   "name": "myportfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-     "dev": "vite",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@react-three/drei": "^9.121.2",
     "@react-three/fiber": "^8.17.12",
+    "axios": "^1.7.9",
     "bootstrap": "^5.3.3",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^11.18.0",
@@ -36,6 +37,7 @@
     "eslint-plugin-react-refresh": "^0.4.16",
     "gh-pages": "^6.3.0",
     "globals": "^15.14.0",
+    "terser-webpack-plugin": "^5.3.11",
     "vite": "^6.0.5"
   }
 }

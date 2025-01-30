@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import image1 from "../assets/Snort.jpg";
-import image2 from "../assets/download.jpg";
+import image2 from "../assets/logo.png";
 import image3 from "../assets/ns.png";
 import image4 from "../assets/Malware_Analysis.jpg";
 import image5 from "../assets/Android.png";

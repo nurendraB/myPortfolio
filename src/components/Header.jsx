@@ -72,13 +72,13 @@ const Header = () => {
                   transition={{ duration: 0.5, delay: 0.3 }}>
                   <Link
                     className="btn nav-button text-white"
-                    to="skills"
+                    to="certifications"
                     smooth={true}
                     duration={500}
                     offset={-50}
                     activeClass="active">
                     <motion.span whileHover={{ scale: 1.1 }}>
-                      Skills
+                      Certifications
                     </motion.span>
                   </Link>
                 </motion.li>
@@ -87,23 +87,6 @@ const Header = () => {
                   initial={{ opacity: 0, x: -50 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.5, delay: 0.4 }}>
-                  <Link
-                    className="btn nav-button text-white"
-                    to="services"
-                    smooth={true}
-                    duration={500}
-                    offset={-50}
-                    activeClass="active">
-                    <motion.span whileHover={{ scale: 1.1 }}>
-                      Services
-                    </motion.span>
-                  </Link>
-                </motion.li>
-                <motion.li
-                  className="nav-item"
-                  initial={{ opacity: 0, x: -50 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.5, delay: 0.5 }}>
                   <Link
                     className="btn nav-button text-white"
                     to="achievements"
@@ -120,7 +103,41 @@ const Header = () => {
                   className="nav-item"
                   initial={{ opacity: 0, x: -50 }}
                   animate={{ opacity: 1, x: 0 }}
+                  transition={{ duration: 0.5, delay: 0.5 }}>
+                  <Link
+                    className="btn nav-button text-white"
+                    to="skills"
+                    smooth={true}
+                    duration={500}
+                    offset={-50}
+                    activeClass="active">
+                    <motion.span whileHover={{ scale: 1.1 }}>
+                      Skills
+                    </motion.span>
+                  </Link>
+                </motion.li>
+                <motion.li
+                  className="nav-item"
+                  initial={{ opacity: 0, x: -50 }}
+                  animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.5, delay: 0.6 }}>
+                  <Link
+                    className="btn nav-button text-white"
+                    to="services"
+                    smooth={true}
+                    duration={500}
+                    offset={-50}
+                    activeClass="active">
+                    <motion.span whileHover={{ scale: 1.1 }}>
+                      Services
+                    </motion.span>
+                  </Link>
+                </motion.li>
+                <motion.li
+                  className="nav-item"
+                  initial={{ opacity: 0, x: -50 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ duration: 0.5, delay: 0.7 }}>
                   <Link
                     className="btn nav-button text-white"
                     to="contact"

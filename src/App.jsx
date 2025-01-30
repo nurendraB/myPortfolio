@@ -12,6 +12,7 @@ import "./index.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 // import Services from "./components/Services";
 import CybersecurityServices from "./components/CybersecurityServices";
+import Certifications from "./components/Certifications";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <ThreeScene />
       <About />
       <Projects />
+      <Certifications />
       <Achievements />
       <Skills /> {/* Render the Skills component */}
       <CybersecurityServices />

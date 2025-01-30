@@ -23,7 +23,22 @@ const About = () => {
       <motion.p
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.5 }}>
+        transition={{ duration: 0.5, delay: 0.5 }}
+        style={{
+          fontWeight: "bold",
+          fontFamily: "Arial, sans-serif",
+          fontSize: "2rem",
+        }}>
+        NURENDRA BHANDARIGAL
+      </motion.p>
+
+      <motion.p
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.5 }}
+        style={{
+          fontFamily: "Arial, sans-serif",
+        }}>
         As a passionate cybersecurity professional with a B. Tech in Computer
         Science and Engineering and a minor in Cybersecurity, I specialize in
         ethical hacking, web pentesting, malware analysis, and digital

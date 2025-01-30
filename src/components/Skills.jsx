@@ -55,10 +55,21 @@ const Skills = () => {
             repeat: Infinity,
             ease: "linear",
           }}
-          style={{ display: "flex", gap: "30px", minWidth: "100%" }}>
+          style={{
+            display: "flex",
+            gap: "30px",
+            minWidth: `${skills.length * 110}px`, // Dynamically set the width for all skills
+          }}>
           {/* Repeat the skills array twice for seamless animation */}
           {[...skills, ...skills].map((skill, index) => (
-            <div key={index} className="skill-item text-center">
+            <div
+              key={index}
+              className="skill-item text-center"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+              }}>
               <img
                 src={skill.logo}
                 alt={skill.name}
@@ -73,5 +84,4 @@ const Skills = () => {
     </section>
   );
 };
-
 export default Skills;
